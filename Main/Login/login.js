@@ -16,11 +16,9 @@ function getFromLS(e) {
 
   let users = JSON.parse(localStorage.getItem("user", "user"));
 
-  const p = users.filter(i => arr.includes(i));
+  const stringed = String(arr);
 
-  let stringed = p.toString();
-
-  if (arr.includes(stringed)) {
+  if (users.includes(stringed)) {
     alert('Success!')
   } else {
     e.preventDefault();
