@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+#myForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 43vh;
+  text-align: center;
+  border-radius: 0.5em;
+  background-color: cornflowerblue;
+  box-sizing: border-box;
+  box-shadow: 3px 1px 10px;
+}
+
+.inner-content {
+  position: relative;
+  top: 20px;
+}
+
+#form-title {
+  font-family: 'Bad Script';
+  text-decoration: underline;
+}
+
+input {
+  margin: 1em;
+  border: none;
+  background-color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-family: Bahnschrift;
+  outline: none;
+}
+
+.submitBtn {
+  width: 20%;
+  border: none;
+  margin-top: 5px;
+  padding: 5px 0;
+  border-radius: 0.4em;
+  background-color: #fff;
+  font-family: Candara;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+@media (min-width: 768px) {
+  #myForm {
+    max-width: 50%;
+    height: 50vh;
+  }
+
+  #form-title {
+    font-size: 3rem;
+  }
+
+  input {
+    font-size: 13px;
+  }
+
+  .submitBtn {
+    max-width: 20%;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 800px) {
+
+  #myForm {
+    max-width: 50%;
+    height: 45vh;
+  }
+
+  input {
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 0.4em;
+  }
+
+  .submitBtn {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 15%;
+    font-family: Bahnschrift;
+  }
+}
+
+@media(min-width: 1024px) {
+  #myForm {
+    height: 50vh;
+    width: 50%;
+  }
+
+  input {
+    font-size: 15px;
+    padding: 5px 8px;
+  }
+
+  .submitBtn {
+    font-size: 15px;
+
+  }
+}
