@@ -11,9 +11,9 @@
   height: 43vh;
   text-align: center;
   border-radius: 0.5em;
-  background-color: cornflowerblue;
+  background: linear-gradient(to bottom right, cornFlowerBlue, blue);
   box-sizing: border-box;
-  box-shadow: 3px 1px 10px;
+  box-shadow: 3px 3px 20px black;
 }
 
 .inner-content {
@@ -22,8 +22,9 @@
 }
 
 #form-title {
-  font-family: 'Bad Script';
-  text-decoration: underline;
+  font-family: 'Caveat';
+
+
 }
 
 input {
@@ -32,7 +33,7 @@ input {
   background-color: #fff;
   padding: 5px 8px;
   border-radius: 5px;
-  font-family: Bahnschrift;
+  font-family: Comfortaa;
   outline: none;
 }
 
@@ -43,10 +44,13 @@ input {
   padding: 5px 0;
   border-radius: 0.4em;
   background-color: #fff;
-  font-family: Candara;
+  font-family: 'Asap';
   font-weight: 600;
   cursor: pointer;
+}
 
+.btn {
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -93,7 +97,7 @@ input {
 @media(min-width: 1024px) {
   #myForm {
     height: 50vh;
-    width: 50%;
+    width: 35%;
   }
 
   input {
